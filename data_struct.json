@@ -1,0 +1,41 @@
+{
+    "bookkeeper_index":{
+        "date_time":{
+            "capital":21344235,
+            "cash":123497,
+            "total_pnl":12345,
+            "hold_state":{
+                "code":{
+                    "aver_cost":20.23,
+                    "market_price":1234,
+                    "hold_num":3000,
+                    "cost":123,
+                    "market_value":600000,
+                    "pnl":2941234.2
+                },
+                "code":{}
+            },
+            "transaction_state":{
+                "code":{
+                    "transaction_price":123,
+                    "transaction_num":-100,
+                    "transaction_fee":123.8
+                }
+            },
+            "index_state":{
+                "index_code":"",
+                "index_value":""
+            }
+        }
+    },
+
+    "target_hold_dict":{
+        "target_code":{
+            "market_price":3414,
+            "target_num":1234,
+            "target_percent":0.123
+
+        }
+    }
+    
+}
