@@ -73,7 +73,7 @@ python sample back_test/base_bt.py
 
 #### 框架示意图：
 
-![43EED5AB-9581-40E7-9DEC-C0A236126A9E](/Users/sumnap/Desktop/43EED5AB-9581-40E7-9DEC-C0A236126A9E.png)
+![43EED5AB-9581-40E7-9DEC-C0A236126A9E](https://github.com/nyg2017/back_test/image/1.png)
 
 #### 设计思路
 
