@@ -4,7 +4,7 @@
 
 交流微信：（申请中）
 
-### CROSS SECTION BACKTEST SYSTEM（基于横截面的回测系统）是一套用于测试机器学习因子效果以及构建基于机器学习的股票池的回测系统，
+### CROSS SECTION BACKTEST SYSTEM（基于横截面的回测系统）是一套用于测试机器学习因子效果以及构建基于机器学习的股票池的简易回测系统
 
 ## Install
 
@@ -34,7 +34,13 @@ pip install jqdatasdk
 
 ### 3. Run Sample
 
-```
+```bash
+# add you jqdata account and passwd
+vim ./back_test/data_interface.py
+#modify  account and password as your jqdata account and password
+# 聚宽数据可以申请一年的免费试用期。申请方式见：https://www.joinquant.com/default/index/sdk
+# account = ""
+# password = ""
 python sample back_test/base_bt.py
 ```
 
@@ -63,6 +69,7 @@ python sample back_test/base_bt.py
 - 不支持多空策略（TODO）
 - 不支持滑点
 - 以收盘价进行买卖
+- 自定义数据接口，目前采用的是jqdata，如果用其他的数据，在data_interface/data_api.py中定义自己的数据接口，并且重写data_interface/jq_data.py中所有方法。
 
 #### 框架示意图：
 
@@ -78,3 +85,4 @@ TODO：
 
 - debug
 - 滑点
+- 太多了
