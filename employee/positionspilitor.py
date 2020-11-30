@@ -2,7 +2,7 @@ import numpy as np
 import os
 import pandas as pd
 from back_test.util.position import *
-from back_test.date_interface.jq_data import getClosePrices
+from back_test.data_interface.jq_data import getClosePrices
 
 
 position_func_dict = {

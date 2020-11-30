@@ -1,13 +1,11 @@
 import jqdatasdk as jq
 import numpy as np
 
-account = ""
-password = ""
+account = "15210089516"
+password = "Ningyaguang1"
 
 def login():
     print ("login JQDATA servering")
-    account = account
-    password = password
     jq.auth(account,password)
     print ("login successed!")    
     remain_query = jq.get_query_count()

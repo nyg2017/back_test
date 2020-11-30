@@ -33,9 +33,9 @@ class BaseBT(object):
 
 
 if __name__ == "__main__":
-    from back_test.date_interface.jq_data import login
+    from back_test.data_interface.jq_data import login
     import jqdatasdk as jq
-    from back_test.date_interface.data_api import UserDataApi
+    from back_test.data_interface.data_api import UserDataApi
     login()
     capital = 1000000
     base_index = '000001.XSHG'

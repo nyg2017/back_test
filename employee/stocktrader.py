@@ -2,7 +2,7 @@ import pandas as pd
 import numpy as np
 import os
 from back_test.employee.positionspilitor import PositionSpilitor
-from back_test.date_interface.data_api import UserDataApi
+from back_test.data_interface.data_api import UserDataApi
 from back_test.employee.inspector import Inspector
 
 class StockTrader(object):

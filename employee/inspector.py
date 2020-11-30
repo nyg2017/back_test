@@ -1,5 +1,5 @@
 import numpy as np
-from back_test.date_interface.data_api import UserDataApi
+from back_test.data_interface.data_api import UserDataApi
 
 
 class Inspector(object):
