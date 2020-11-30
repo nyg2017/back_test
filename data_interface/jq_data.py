@@ -1,8 +1,8 @@
 import jqdatasdk as jq
 import numpy as np
 
-account = "15210089516"
-password = "Ningyaguang1"
+account = ""
+password = ""
 
 def login():
     print ("login JQDATA servering")
